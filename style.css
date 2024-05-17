@@ -1,0 +1,8 @@
+body{
+    background-image: 
+    url("img/background.jpeg");
+
+    background-size: cover; /* Assurez-vous que l'image couvre toute la fenêtre du navigateur */
+    background-position: center; /* Centrez l'image */
+    background-repeat: no-repeat; /* Empêchez l'image de se répéter */
+}
