@@ -1,8 +1,22 @@
 body{
-    background-image: 
-    url("img/background.jpeg");
+    background-color: rgb(210, 210, 230);
+    
+}
 
-    background-size: cover; /* Assurez-vous que l'image couvre toute la fenêtre du navigateur */
-    background-position: center; /* Centrez l'image */
-    background-repeat: no-repeat; /* Empêchez l'image de se répéter */
+main{
+    background-color: white;    
+    height: 100vh; /* Hauteur de 100% de la fenêtre */
+    width: 75%;
+    margin-left: auto; /* Pour centrer horizontalement */
+    margin-right: auto; /* Pour centrer horizontalement */
+}
+
+
+header{
+    background-color: white;
+    position: fixed; /* Position fixe */
+    top: 0; /* Collé en haut de la page */
+    width: 100%; /* Largeur de 100% */
+    padding: 10px 0; /* Marge intérieure (haut et bas) */
+    z-index: 1000; /* Assurez-vous que le header est au-dessus de tout le contenu */
 }
